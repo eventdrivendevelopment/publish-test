@@ -1,0 +1,9 @@
+<settings>
+    <servers>
+        <server>
+            <id>ossrh</id>
+            <username>${{ secrets.SONATYPE_JIRA_USERNAME }}</username>
+            <password>${{ secrets.SONATYPE_JIRA_PASSWORD }}</password>
+        </server>
+    </servers>
+</settings>
